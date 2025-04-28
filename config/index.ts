@@ -3,11 +3,11 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
+  title: '社内FAQチャットボット',
+  description: '社内規則に関するお問い合わせに回答します。',
+  copyright: '@naru',
   privacy_policy: '',
-  default_language: 'en',
+  default_language: 'jp',
 }
 
 export const isShowPrompt = false
