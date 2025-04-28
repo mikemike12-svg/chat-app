@@ -7,7 +7,7 @@ export const APP_INFO: AppInfo = {
   description: '社内規則に関するお問い合わせに回答します。',
   copyright: '@naru',
   privacy_policy: '',
-  default_language: 'jp',
+  default_language: 'ja',
 }
 
 export const isShowPrompt = false
