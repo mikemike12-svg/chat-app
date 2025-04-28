@@ -1,6 +1,6 @@
 export const i18n = {
-  defaultLocale: 'en',
-  locales: ['en', 'es', 'zh-Hans', 'ja'],
+  defaultLocale: 'ja',  // ← ここを 'ja' に変更
+  locales: ['ja', 'en', 'es', 'zh-Hans'],  // ← localesの先頭も日本語にしてOK
 } as const
 
 export type Locale = typeof i18n['locales'][number]
