@@ -32,7 +32,7 @@ const AppIcon: FC<AppIconProps> = ({
       }}
     >
       <Image
-        src="/chat-bot-faq.jpeg"   // ← public直下のファイルを指定
+        src="/chat-bot-faq.png"   // ← public直下のファイルを指定
         alt="Chat Bot Icon"
         width={40}
         height={40}
